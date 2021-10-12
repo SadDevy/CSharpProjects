@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Fontello";
+    src: url(fonts/fontello.woff),
+         url(fonts/fontello.eot),
+         url(fonts/fontello.svg),
+         url(fonts/fontello.ttf),
+         url(fonts/fontello.woff2);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/font-oswald/oswald-light.woff);
+}
+
+.info {
+    margin: 5px;
+    text-align: justify;
+}
+
+a {
+    font-family: "Fontello";
+    text-decoration: none;
+}
+
+.reference {
+    font-size: 15px;
+    color: #1a9cb0;
+}
+
+.reference::after {
+    content: "\e801";
+    position: relative;
+    left: 3px;
+    top: -2px;
+    margin-right: 3px;
+    font-size: 8px;
+}
+
+/* .reference:visited {
+    color: #f0ab2f;
+} */
+
+ul {
+    padding: 0;
+    margin-top: 30px;
+    font-size: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.shortcut {
+    padding: 0 0 0 15px;
+    font-family: "Fontello";
+    color: #1a9cb0;
+}
+
+.shortcut::before {
+    content: "\e800";
+    position: relative;
+    left: -5px;
+    color: #71757f;
+}
+
+/* .shortcut:visited {
+    color: #f0ab2f;
+} */
+
+.list-item {
+    padding: 0 0 0 10px;
+    font-family: "Arial";
+    font-size: 15px;
+    color: #1a9cb0;
+}
+
+.list-item::after {
+    content: "/";
+    position: relative;
+    left: 2px;
+}
+
+li:last-child > .list-item::after {
+    content: "";
+}
+
+/* .list-item:visited {
+    color: #71757f;
+} */
+
+.has-popup {
+    margin: 20px 0 0 70px;
+    padding: 10px 30px;
+    position: relative;
+    display: inline-block;
+    background: #cccccc;
+}
+
+.link {
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: 700;
+    color: #797e94;
+}
+
+.popup {
+    position: absolute;
+    top: 130%;
+    left: -35%;
+    padding: 10px;
+    width: 260px;
+    display: none;
+    font-size: 15px;
+    border: solid 1px #f4f4f4;
+    box-shadow: 5px 5px 5px #f4f4f4;
+}
+
+.popup::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    z-index: 2;
+    width: 1px;
+    height: 1px;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    border-bottom: solid 8px #ffffff;
+}
+
+.popup::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -9px;
+    z-index: 1;
+    width: 1px;
+    height: 1px;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    border-bottom: solid 8px #f4f4f4;
+}
+
+.popup-header {
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-weight: 600;
+    color: #cccccc;
+}
+
+.popup-info {
+    display: block;
+    color: #d3c5bb;
+}
+
+.has-popup:hover .popup {
+    display: block;
+}
