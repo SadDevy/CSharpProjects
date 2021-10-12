@@ -1,0 +1,25 @@
+﻿@model Dictionary<string, object>
+@using System.Linq
+
+<div>
+    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    <span>/</span>
+
+    @if (@Model["action"].ToString() == "Index")
+    {
+        <span>@Model["controller"]</span>
+    }
+    else
+    {
+        <a asp-area="" asp-controller="@Model["controller"]" asp-action="Index">@Model["controller"]</a>
+        <span>/</span>
+
+        <span>@Model["action"]</span>
+
+        if (Model.TryGetValue("id", out object id))
+        {
+            <span>/</span>
+            <span>@id</span>
+        }
+    }
+</div>

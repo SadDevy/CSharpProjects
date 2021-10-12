@@ -1,0 +1,59 @@
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Got an index.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+new exception
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction

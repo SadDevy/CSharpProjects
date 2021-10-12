@@ -1,0 +1,415 @@
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Got an index.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+new exception
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An error occurred: System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'ProductId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at Introduction.Data.Repositories.ProductsRepository.Update(Product item) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Data\Repositories\ProductsRepository.cs:line 34
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Controllers\ProductsController.cs:line 90.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+An error occurred: System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'ProductId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at Introduction.Data.Repositories.ProductsRepository.Update(Product item) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Data\Repositories\ProductsRepository.cs:line 34
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Controllers\ProductsController.cs:line 90.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext) /Products
+Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext) /Products
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application is shutting down...
+Unable to start Kestrel.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+An error occurred using the connection to database 'Northwind' on server '.\SqlExpress'.
+An exception occurred while iterating over the results of a query for context type 'Introduction.Data.NorthwindContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=240; handshake=102; [Login] initialization=9; authentication=81; [Post-Login] complete=13713; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:1d30213f-7d0b-47ed-8f62-254111e4e3bb
+Error Number:-2,State:0,Class:11
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+An error occurred using the connection to database 'Northwind' on server '.\SqlExpress'.
+An exception occurred while iterating over the results of a query for context type 'Introduction.Data.NorthwindContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Northwind" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Introduction AppPool'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0661d816-99b5-4606-af48-c7dc0a27190f
+Error Number:4060,State:1,Class:11
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Failed to determine the https port for redirect.
+Application is shutting down...
