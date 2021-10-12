@@ -1,0 +1,410 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(./fonts/font-oswald/oswald-light.woff);
+}
+
+@font-face {
+    font-family: "Fontello";
+    src: url(./fonts/font-fontello/fontello.woff);
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Header styles */
+
+.main-menu-container {
+    height: 45px;
+    background: #044e8c;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-menu-item {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 45px;
+    background: #436da8;
+}
+
+.main-menu-item::after {
+    content: attr(data-notifications-count);
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    padding: 5px 8px;
+    display: block;
+    border-radius: 50%;
+    font-size: 10px;
+    font-family: "Oswald";
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ed1c24;
+}
+
+.main-menu-item:not([data-notifications-count])::after
+{
+    display: none;
+}
+
+.main-menu-item-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Fontello";
+}
+
+.link-active {
+    background: #ed1c24;
+}
+
+.main-menu-item:hover {
+    background: #ed1c24;
+}
+
+.main-menu-right .main-menu-item:last-child {
+    width: 150px;
+    background: #383535;
+}
+
+.main-menu-right .main-menu-item:last-child:hover {
+    background: #ed1c24;
+}
+
+.main-menu-right .main-menu-item:last-child .main-menu-item-link {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 12px 110px 33px 40px;
+    font-family: "Oswald", "Fontello";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Main menu icons */
+
+.icon-letter::before {
+    content: "\e801";
+    position: absolute;
+    left: 23%;
+    top: 27%;
+}
+
+.icon-user::before {
+    content: "\e802";
+    position: absolute;
+    left: 28%;
+    top: 27%;
+}
+
+.icon-note::before {
+    content: "\e803";
+    position: absolute;
+    left: 35%;
+    top: 27%;
+}
+
+.icon-flag::before {
+    content: "\e800";
+    position: absolute;
+    left: 35%;
+    top: 27%;
+}
+
+.icon-check::before {
+    content: "\f274";
+    position: absolute;
+    left: 30%;
+    top: 27%;
+}
+
+.icon-arrow::before {
+    content: "\e804";
+    position: absolute;
+    left: 34%;
+    top: 27%;
+}
+
+.icon-table::before {
+    content: "\f0ce";
+    position: absolute;
+    left: 33%;
+    top: 27%;
+}
+
+.icon-exit::before {
+    content: "\e805";
+    position: absolute;
+    left: 60%;
+    top: 27%;
+}
+
+/* Content styles */
+
+.content-container {
+    display: flex;
+    justify-content: flex-start;
+    height: calc(100% - 80px);
+}
+
+/* Side menu stiles */
+
+.side-menu-container {
+    width: 400px;
+    background-color: #38c1d6;
+}
+
+.side-menu {
+    list-style: none;
+}
+
+.side-menu-item {
+    border-bottom: 2px solid #4dc7db;
+}
+
+.side-menu-item:hover {
+    background: #27acc0;
+}
+
+.side-menu-item-link {
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* Content */
+
+.central-section-container {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.title {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: "Oswald";
+    font-weight: 600;
+    color: #fff;
+    background-color: #c8c8c8;
+}
+
+.cards-container {
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.card {
+    display: flex;
+    padding: 5px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    height: 280px;
+    width: 250px;
+}
+
+.card-photo {
+    height: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    border: 2px solid #c8c8c8;
+    box-shadow: 0 0 4px;
+}
+
+.card-buttons {
+    flex-grow: 1;
+    padding: 5px 0;
+}
+
+.card-button-details,
+.card-button-live-demo {
+    display: inline-block;
+    font-family: "Oswald";
+    font-weight: 700;
+    color: #c7c1c1;
+    background: linear-gradient(to bottom, #ffffff, #dadada);
+    border-radius: 5px;
+    border: 2px solid #c8c8c8;
+    box-shadow: 0 0 4px;
+    cursor: pointer;
+}
+
+.card-button-details {
+    margin-right: 17px;
+    padding: 10px 36px;
+}
+
+.card-button-live-demo {
+    padding: 10px 27px;
+}
+
+.card-button-details:hover,
+.card-button-live-demo:hover {
+    background: linear-gradient(to bottom, #6db019, #6eae1c);
+    color: #ffffff;
+}
+
+/* Cards */
+.card-shadow {
+    position: relative;
+    height: 100%;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0;
+    font-family: "Oswald";
+}
+
+.card-1 {
+    height: 100%;
+    border-radius: 5px;
+    background: url(images/cards/card-1.png) no-repeat;
+    background-size: cover;
+}
+
+.card-2 {
+    height: 100%;
+    border-radius: 5px;
+    background: url(images/cards/card-2.png) no-repeat;
+    background-size: cover;
+}
+
+.card-3 {
+    height: 100%;
+    border-radius: 5px;
+    background: url(images/cards/card-3.png) no-repeat;
+    background-size: cover;
+}
+
+.card-shadow:hover {
+    opacity: 0.7;
+}
+
+.card-shadow:hover::before {
+    content: attr(data-name);
+    margin-left: 10px;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+
+.card-shadow:hover::after {
+    content: attr(data-link);
+    margin-left: 10px;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+
+.float-card {
+    float: left;
+}
+
+.inline-block-card {
+    display: inline-block;
+}
+
+.flexbox-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Footer styles */
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 30px;
+    height: 15px;
+    background-color: #464547;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.version,
+.help {
+    font-size: 15px;
+    font-family: "Oswald";
+    font-weight: 600;
+    color: #7f7f7e;
+}
+
+.help {
+    text-transform: uppercase;
+    color: #ffffff;
+}
