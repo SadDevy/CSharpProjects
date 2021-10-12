@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTMLFundamentals</title>
+</head>
+<body>
+	<h1>HTMLFundamentals</h1>
+	<section>
+		<h2>Lists</h2>
+		<ul>
+			<li>
+				<a href="#">Поиск</a>
+			</li>
+			<li>
+				<a href="#">YouTube</a>
+			</li>
+			<li>
+				<a href="#">Карты</a>
+			</li>
+			<li>
+				<a href="#">Play</a>
+			</li>
+			<li>
+				<a href="#">Новости</a>
+			</li>
+			<li>
+				<a href="#">Почта</a>
+			</li>
+		</ul>
+		<ol start="7">
+			<li>Поиск</li>
+			<li>YouTube</li>
+			<li>Карты</li>
+			<li>Play</li>
+			<li>Новости</li>
+			<li>Почта</li>
+			<li>
+				Ещё
+				<ul>
+					<li>Авиабилеты</li>
+					<li>Авто</li>
+					<li>Афиша</li>
+					<li>Блоги</li>
+				</ul>
+			</li>
+		</ol>
+		<dl>
+			<dt><em>Тег</em></dt>
+			<dd>элемент языка разметки гипертекста.</dd>
+			<dt><em>Семантическая паутина</em></dt>
+			<dd>это направление развития Всемирной паутины, целью которого является представление информации в виде, пригодном для машинной обработки.</dd>
+		</dl>
+		<hr>
+	</section>
+	<section>
+		<h2>Table</h2>
+		<table border="collapse">
+			<caption>CSS Generated content for pseudo-elements</caption>
+			<thead>
+				<tr>
+					<th>IE</th>
+					<th>Firefox</th>
+					<th>Chrome</th>
+					<th>Safari</th>
+					<th>Opera</th>
+					<th>iOS Safari</th>
+					<th>Opera Mini</th>
+					<th>Android Browser</th>
+					<th>Chrome for Android</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2"></td>
+					<td rowspan="4"></td>
+					<td>27</td>
+					<td rowspan="3"></td>
+					<td rowspan="5"></td>
+					<td rowspan="4"></td>
+					<td rowspan="5"></td>
+					<td></td>
+					<td rowspan="5"></td>
+				</tr>
+				<tr>
+					<td>32</td>
+					<td>2.3</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>33</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>34</td>
+					<td>5.1</td>
+					<td>4.1</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>30</td>
+					<td>35</td>
+					<td>6.1</td>
+					<td>6.1</td>
+					<td>4.3</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>31</td>
+					<td>36</td>
+					<td>7</td>
+					<td>23</td>
+					<td>7.1</td>
+					<td>7</td>
+					<td>4.4</td>
+					<td>36</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="9">
+						Method of displaying text or images before or after the given element's contents using the :before and :after pseudo-elements
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+		<hr>
+	</section>
+	<section>
+		<h2>Form</h2>
+		<form>
+			<fieldset>
+				<legend>Личные данные</legend>
+				<p>
+					<label for="surname">Фамилия</label>
+					<input id="surname">
+				</p>
+				<p>
+					<label for="name">Имя</label>
+					<input id="name">
+				</p>
+				<p>
+					<label for="patronymic">Отчество</label>
+					<input id="patronymic">
+				</p>
+				<p>
+					<label>Пол</label>
+					<span><input type="radio" name="sex" value="male">мужской</span>
+					<span><input type="radio" name="sex" value="female">женский</span>
+				</p>
+				<p>
+					<label for="age">Возраст</label>
+					<input type="number" id="age" min="18" max="101">
+				</p>
+				<p>
+					<label for="residenceCountry">Возраст</label>
+					<select id="residenceCountry">
+						<option>USA</option>
+						<option>Canada</option>
+						<option>Russian Federation</option>
+					</select>
+				</p>
+				<p>
+					<label>Город</label>
+					<span><input type="checkbox" name="city" value="Ryazan">Рязань</span>
+					<span><input type="checkbox" name="city" value="Moscow">Москва</span>
+				</p>
+				<p>
+					<label for="photo">Фото</label>
+					<input type="file" id="photo" accept="image/*">
+				</p>
+			</fieldset>
+			<fieldset>
+				<p>
+					<label for="profession">Профессия</label>
+					<select id="profession" size="8" multiple>
+						<optgroup label="Информационные технологии и интернет">
+							<option>Web мастер</option>
+							<option>Администратор баз данных</option>
+							<option>Системы автоматизированного проектирования</option>
+						</optgroup>
+						<optgroup label="Бухгалтерия, управленческий учет, финансы предприятия">
+							<option>Планово-экономическое управление</option>
+							<option>Руководство бухгалтерий</option>
+							<option>Бюджетирование и планирование</option>
+						</optgroup>
+					</select>
+				</p>
+				<p>
+					<label for="salary">Зарплата</label>
+					<input type="range" id="salary">
+				</p>
+				<p>
+					<textarea rows="15" cols="50" placeholder="Расскажите немного о себе.."></textarea>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<p>
+					<label for="site">Сайт</label>
+					<input id="site">
+				</p>
+				<p>
+					<label for="email">Email</label>
+					<input type="email" id="email">
+				</p>
+				<p>
+					<label for="phone">Телефон</label>
+					<input type="tel" id="phone">
+				</p>
+			</fieldset>
+			<p>
+				<label for="password">Пароль</label>
+				<input type="password" id="password" required>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+				<input type="reset" value="Очистить">
+			</p>
+		</form>
+	</section>
+</body>
+</html>
