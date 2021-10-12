@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="todos">
+            <div class="todos__title title">todos</div>
+            <div class="todos__task-list task-list">
+                <div class="task-list__border"></div>
+                <ul class="task-list__items">
+                    <li class="task-list__title">
+                        <a href="#" class="task-list__drop-link"></a>
+                        <span class="task-list__drop-text">What needs to be done?</span>
+                    </li>
+                    <li class="task-list__item">
+                        <a href="#" class="task-list__item-link task-list__item-link--completed"></a>
+                        <span class="task-list__item-text task-list__item-text--completed">
+                            описание задания
+                            <a href="#" class="task-list__item-close"></a>
+                        </span>
+                    </li>
+                    <li class="task-list__item">
+                        <a href="#" class="task-list__item-link task-list__item-link--completed"></a>
+                        <span class="task-list__item-text task-list__item-text--completed">
+                            картинки с примерами UI
+                            <a href="#" class="task-list__item-close"></a>
+                        </span>
+                    </li>
+                    <li class="task-list__item">
+                        <input class="task-list__item-text">
+                    </li>
+                    <li class="task-list__item">
+                        <a href="#" class="task-list__item-link"></a>
+                        <span class="task-list__item-text">
+                            Нужна срочность?
+                        </span>
+                    </li>
+                    <li class="task-list__item">
+                        <a href="#" class="task-list__item-link task-list__item-link--completed"></a>
+                        <span class="task-list__item-text task-list__item-text--completed">
+                            Нужна срочность?
+                            <a href="#" class="task-list__item-close"></a>
+                        </span>
+                    </li>
+                </ul>
+                <div class="task-list__prefooter"></div>
+                <div class="task-list__footer footer">
+                    <div class="footer__items-left" data-items-left="2">
+                        items-left
+                    </div>
+                    <ul class="footer__task-kinds task-kinds">
+                        <li class="task-kinds__item">
+                            <a href="#" class="task-kinds__link">All</a>
+                        </li>
+                        <li class="task-kinds__item">
+                            <a href="#" class="task-kinds__link">Active</a>
+                        </li>
+                        <li class="task-kinds__item">
+                            <a href="#" class="task-kinds__link task-kinds__link--active">Completed</a>
+                        </li>
+                    </ul>
+                    <div class="footer__cleared-items">
+                        <span class="footer__cleared-text" data-cleared="(3)">Clear completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
