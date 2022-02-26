@@ -1,0 +1,28 @@
+//1
+<html>
+
+<body>
+  <script>
+    alert(document.body.lastChild.nodeType);
+  </script>
+</body>
+
+</html>
+
+NodeType = 1;
+scritp - узел
+
+1 - для узлов
+3 - для текста
+9 - для объектов документа
+
+//2
+<script>
+  let body = document.body;
+
+  body.innerHTML = "<!--" + body.tagName + "-->";
+
+  alert( body.firstChild.data ); // что выведет?
+</script>
+
+BODY

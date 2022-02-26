@@ -1,0 +1,462 @@
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Got an index.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+new exception
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+An error occurred System.Exception: new exception
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\Controllers\ProductsController.cs:line 89.
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Introduction\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An error occurred: System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'ProductId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at Introduction.Data.Repositories.ProductsRepository.Update(Product item) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Data\Repositories\ProductsRepository.cs:line 34
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Controllers\ProductsController.cs:line 90.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+An error occurred: System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'ProductId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at Introduction.Data.Repositories.ProductsRepository.Update(Product item) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Data\Repositories\ProductsRepository.cs:line 34
+   at Introduction.Controllers.ProductsController.Edit(Int32 id, Product model) in C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\Controllers\ProductsController.cs:line 90.
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext) /Products
+Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext) /Products
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\Controllers\Introduction
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+An unhandled exception has occurred while executing the request.
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction\bin\Debug\net5.0\, folder path => D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\NetLab\netlab\Web\ASPNET\RazorAndViews\Introduction
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /Products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /Products
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An exception was thrown while deserializing the token.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\RazorAndViews\RazorAndViews
+Failed to determine the https port for redirect.
+An exception was thrown while deserializing the token.
+Application is shutting down...

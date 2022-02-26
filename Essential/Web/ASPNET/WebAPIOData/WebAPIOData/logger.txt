@@ -1,0 +1,894 @@
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571301796315138", Request ID "80000003-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18158513703463419907", Request ID "80000004-0001-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571297501347850", Request ID "8000000b-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236448", Request ID "80000021-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236450", Request ID "80000023-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275797", Request ID "80000018-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571306091282456", Request ID "80000019-0003-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236457", Request ID "8000002b-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236460", Request ID "8000002e-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275801", Request ID "8000001b-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571301796315154", Request ID "80000014-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275804", Request ID "8000001e-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571301796315167", Request ID "80000022-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308495", Request ID "80000011-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308498", Request ID "80000014-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308501", Request ID "80000017-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275816", Request ID "8000002b-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308504", Request ID "8000001a-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308507", Request ID "8000001d-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308510", Request ID "80000021-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236480", Request ID "80000042-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628887244308518", Request ID "80000028-0000-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Connection ID "18374686481282236483", Request ID "80000046-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571306091282473", Request ID "8000002b-0003-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571297501347858", Request ID "80000015-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571297501347862", Request ID "80000017-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236491", Request ID "8000004d-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571297501347864", Request ID "8000001a-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571297501347864", Request ID "8000001d-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236496", Request ID "80000053-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Connection ID "18230571297501347870", Request ID "80000021-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236500", Request ID "80000055-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275826", Request ID "80000034-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Connection ID "18374686481282236504", Request ID "8000005a-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686481282236507", Request ID "8000005d-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275829", Request ID "80000037-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/1
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/1
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18230571301796315205", Request ID "80000046-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/10
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/10
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/11
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/11
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/87
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/87
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686494167138305", Request ID "80000002-0003-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686485577203719", Request ID "80000008-0001-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628891539275788", Request ID "8000000d-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/Categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/Categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPI\WebAPI
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/12
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/12
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/13
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/13
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/category/13
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/category/13
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/product/88
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/product/88
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories/$metadata
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories/$metadata
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628900129210377", Request ID "8000000a-0003-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18374686485577203717", Request ID "80000006-0001-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18302628900129210379", Request ID "8000000d-0003-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+An unhandled exception has occurred while executing the request.
+The response has already started, the error page middleware will not be executed.
+Connection ID "18014398511092596753", Request ID "80000012-0000-fa00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application is shutting down...
+Start application: application location => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData\bin\Debug\net5.0\, folder path => C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\NetLab\netlab\Web\ASPNET\WebAPIOData\WebAPIOData
+Failed to determine the https port for redirect.
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+Path:  /webapi/api/products
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/categories
+Method: Void OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)
+Path:  /webapi/api/products
+Application is shutting down...

@@ -1,0 +1,135 @@
+1) На сколько логических частей делится async/await метод?
+    Когда они выполняются и в какой последовательности?
+  
+    Метод разбивается на логические части по количесву await. Если в методе один await, то он разбивается на 2 логические части (до await и после).
+  Утверждения выполняются последовательно (синхронно), если они не работают с результатом await. Await возвращает новый Task в вызывающий метод, т.е. обещание, что
+  кусок кода будет выполнен в будущем асинхронно. Из-за этого не устанавливается блокировка. Когда асинхронная задача завершила свое выполнение,
+  асинхронный метод продолжает работу. Если в методе присутствует еще один await, то он будет ждать результата Task для продолжения своей работы и т.д.
+
+2) Как правильно отменять асинхронные операции?
+  
+    Отменять асинхронные операции можно с помощью CancellationToken и CancellationTokenSource.
+    
+    Объект CancellationToken содержит информацию о том, должна ли задача быть отмененным. Задача, имеющая объект CancellationToken, 
+  должна периодически проверять
+  чтобы узнать, в каком состоянии находится токен. Если у объекта CancellationToken для свойства IsCancellationRequested установлено 
+  значение true, задача должна прекратить свои операции и вернуться. CancellationToken необратим и может использоваться только один раз. 
+  То есть однажды его Для свойства IsCancellationRequested задано значение true, его нельзя изменить.
+  
+    Объект CancellationTokenSource создает объект CancellationToken, который может затем поручить выполнение различных задач. 
+  Любые объекты, содержащие CancellationTokenSource может вызвать его метод Cancel, который устанавливает значение CancellationToken
+  IsCancellationRequested для свойства true.
+
+ class Program
+ {
+ static void Main()
+ {
+ CancellationTokenSource cts = new CancellationTokenSource();
+ CancellationToken token = cts.Token;
+ MyClass mc = new MyClass();
+ Task t = mc.RunAsync( token );
+ //Thread.Sleep( 3000 ); // Wait 3 seconds.
+ //cts.Cancel(); //cancel the operation.
+ t.Wait();
+ Console.WriteLine($"Was Cancelled: { token.IsCancellationRequested }");
+ }
+ }
+
+ class MyClass
+ {
+ public async Task RunAsync( CancellationToken ct )
+ {
+ if ( ct.IsCancellationRequested )
+ return;
+ await Task.Run( () => CycleMethod( ct ), ct );
+ }
+ void CycleMethod( CancellationToken ct )
+ {
+ Console.WriteLine( "Starting CycleMethod" );
+ const int max = 5;
+ for ( int i=0; i < max; i++ )
+ {
+ if ( ct.IsCancellationRequested ) // Monitor the CancellationToken.
+ return;
+ Thread.Sleep( 1000 );
+ Console.WriteLine($" { i+1 } of { max } iterations completed");
+ }
+ }
+ }
+
+3) Опишите как будет работать данный код (параллельно или последовательно?) Почему?
+
+ public async void Do()
+ {
+    await FooAsync1(); //1
+    await FooAsync2(); //2
+ 
+    Foo();
+ }
+
+   Код будет выполнен последовательно. Функция будет разбита ключевым словом await на 3 части (перед FooAsync1{1}, между FooAsync1{1} и FooAsync1{2},
+ после FooAsync1{2}). При этом, разные части кода будут выполнены в разных потоках. Например, код {1} будет выполнен в рабочем потоке 1, в котором
+ выполняется приложение, далее, потоки будут назначены компилятором.
+  
+    Функция запустит новый I/O bound поток в строке «1», передаст ему вторую часть себя же (ту часть, которая между «1» и «2») в качестве callback-а 
+  и возвратит управление. После того как I/O поток завершит работу, будет вызван callback, и метод продолжит выполнение. Метод создаст еще один I/O 
+  поток в строке «2», передаст ему третью часть себя в качестве callback-а и опять возвратит управление. После того как второй I/O поток завершит 
+  выполнение, будет запущена остальная часть метода.
+  
+    Для параллельного выполнения потребовалось бы несколько асинхронных методов, которые были бы запущены из вызывающего метода. В этом случае, каждый
+  из этих методов отвечал бы за одну конкретную задачу.
+
+4) Создайте Winform приложение с одной кнопкой и запустите следующий код:
+
+private async void button1_Click(object sender, EventArgs e)
+{
+    int result = DoSomeAsync().Result; 
+}
+ 
+private async Task<int> DoSomeAsync()
+{
+    await Task.Delay(100).ConfigureAwait(true); 
+     return 42;
+}
+
+a. Корректно ли отработало приложение, если нет то почему?  !!!!!
+
+    Приложение отработало не корректно. Случился дедлок. Метод вызывается в единственном потоке, а затем этот поток
+  блокируется. По умолчанию ожидание Task захватит текущий SynchronizationContext, и по завершении, оно помещается в 
+  очередь обратно в колбэк SynchronizationContext, который вызовет оставшуюся часть операции. Но единственный поток,
+  который может обработать обратный вызов в очереди в настоящее время заблокирован в ожидании завершения операции.
+  И эта операция не будет завершена, пока не будет обработан обратный вызов.
+
+b. Как нужно использовать configureAwait, если пишите стороннию библиотеку, и почему?
+
+    Если использовать configureAwait(false), то поток не ставил бы обратный вызов в очередь к исходному 
+  контексту, что позволило бы избежать сценариев дедлока.
+
+5) Во что компилятор преобразуют async method?
+    Декомпилируйте ваш метод скачивания файлов и залейте в svn.
+
+    [AsyncStateMachine(typeof (Downloader.\u003CDownloadImageTaskAsync\u003Ed__13))]
+    [DebuggerStepThrough]
+    public Task<Bitmap> DownloadImageTaskAsync(string address)
+    {
+      Downloader.\u003CDownloadImageTaskAsync\u003Ed__13 stateMachine = new Downloader.\u003CDownloadImageTaskAsync\u003Ed__13();
+      stateMachine.\u003C\u003Et__builder = AsyncTaskMethodBuilder<Bitmap>.Create();
+      stateMachine.\u003C\u003E4__this = this;
+      stateMachine.address = address;
+      stateMachine.\u003C\u003E1__state = -1;
+      stateMachine.\u003C\u003Et__builder.Start<Downloader.\u003CDownloadImageTaskAsync\u003Ed__13>(ref stateMachine);
+      return stateMachine.\u003C\u003Et__builder.Task;
+    }
+
+    [AsyncStateMachine(typeof (Downloader.\u003CDownloadTaskAsync\u003Ed__14))]
+    [DebuggerStepThrough]
+    private Task<Bitmap> DownloadTaskAsync(string address)
+    {
+      Downloader.\u003CDownloadTaskAsync\u003Ed__14 stateMachine = new Downloader.\u003CDownloadTaskAsync\u003Ed__14();
+      stateMachine.\u003C\u003Et__builder = AsyncTaskMethodBuilder<Bitmap>.Create();
+      stateMachine.\u003C\u003E4__this = this;
+      stateMachine.address = address;
+      stateMachine.\u003C\u003E1__state = -1;
+      stateMachine.\u003C\u003Et__builder.Start<Downloader.\u003CDownloadTaskAsync\u003Ed__14>(ref stateMachine);
+      return stateMachine.\u003C\u003Et__builder.Task;
+    }

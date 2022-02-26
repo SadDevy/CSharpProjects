@@ -1,0 +1,108 @@
+table {
+    width: 700px;
+    border-collapse: collapse;
+    color: #4f74a5;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+th, 
+td {
+    font-weight: 600;
+}
+
+td {
+    padding: 25px 10px;
+}
+
+th {
+    padding: 20px 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a {
+    color: #4f74a5;
+    text-decoration: none;
+}
+
+thead tr {
+    background-color: #e3eaf3;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #e3eaf3;
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: #f2f6fa;
+}
+
+.sort-desc:after {
+    content: "";
+    width: 0; 
+    height: 0;
+
+    position: relative; 
+    top: 10px;
+    left: 5px;
+
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-top: 7px solid #4f74a5;
+}
+
+.sort-asc::after {
+    content: "";
+    width: 0; 
+    height: 0;
+
+    position: relative; 
+    bottom: 10px;
+    left: 5px;
+
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 7px solid #4f74a5;
+}
+
+button {
+    padding: 10px 50px;
+    border: solid 3px #445fa8;
+    border-radius: 5px;
+    font-size: 20px;
+    background: linear-gradient(to top, #172b4d, #445fa8);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #172b4d, #445fa8);
+}
+
+button:active {
+    box-shadow: 2px 4px 10px black;
+}
+
+button:disabled {
+    pointer-events: none;
+    cursor: default;
+    color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    display: block;
+    height: 15px;
+    width: 15px;
+    background: url("/star.png");
+    background-size: 15px 15px;
+}

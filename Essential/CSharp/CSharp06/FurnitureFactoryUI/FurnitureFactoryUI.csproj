@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FurnitureFactory.Furnitures.Common\FurnitureFactory.Furnitures.Common.csproj" />
+    <ProjectReference Include="..\FurnitureFactory.Furnitures.Modern\FurnitureFactory.Furnitures.Modern.csproj" />
+    <ProjectReference Include="..\FurnitureFactory.Furnitures.Victorian\FurnitureFactory.Furnitures.Victorian.csproj" />
+  </ItemGroup>
+
+</Project>

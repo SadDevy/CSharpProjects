@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PointProcessorUI": {
+      "commandName": "Project",
+      "commandLineArgs": "Tests\\TheWholeSortsData.txt"
+    }
+  }
+}

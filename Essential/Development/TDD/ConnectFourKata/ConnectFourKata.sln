@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourKata", "ConnectFourKata\ConnectFourKata.csproj", "{D58F257E-9DBC-40DE-B6A2-09862B572AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourKata.Tests", "ConnectFourKata.Tests\ConnectFourKata.Tests.csproj", "{238BF0D4-DA62-4512-9CF1-196BC4F5B7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D58F257E-9DBC-40DE-B6A2-09862B572AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58F257E-9DBC-40DE-B6A2-09862B572AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58F257E-9DBC-40DE-B6A2-09862B572AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58F257E-9DBC-40DE-B6A2-09862B572AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238BF0D4-DA62-4512-9CF1-196BC4F5B7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238BF0D4-DA62-4512-9CF1-196BC4F5B7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238BF0D4-DA62-4512-9CF1-196BC4F5B7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238BF0D4-DA62-4512-9CF1-196BC4F5B7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA0F2BE8-F425-4C9D-94E8-D9BF5CC6F467}
+	EndGlobalSection
+EndGlobal

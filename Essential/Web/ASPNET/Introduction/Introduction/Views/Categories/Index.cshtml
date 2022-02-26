@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr class="bg-dark text-white">
+            <th>Category Id</th>
+            <th>Category Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Category category in Model)
+        {
+            <tr>
+                <td>@category.CategoryId</td>
+                <td>@category.CategoryName</td>
+                <td>@category.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>

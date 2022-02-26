@@ -1,0 +1,249 @@
+В текстовом файле нужно привести для принципа проектирования DRY три (лучше больше) примера кода,
+которые были не корректны с точки зрения этого принципа.
+
+  1) Practice C# 02.
+    Пример нарушения принципа:
+    
+    public static string ToBase(int decimalNumber, BaseSystem baseSystem)
+    {
+            
+      switch (baseSystem)
+            
+      {
+                
+        case BaseSystem.Bin:         
+          return String.Format($"\n\rПо алгоритму: {ToBin(decimalNumber)}\n\rCтандартными средствами: {ToBinStandart(decimalNumber)}\n\r" +
+					$"Cовпадение: {ToBin(decimalNumber) == ToBinStandart(decimalNumber)}\n\r");      
+		case BaseSystem.Oct:             
+		  return String.Format($"\n\rПо алгоритму: {ToOct(decimalNumber)}\n\rСтандартными средствами: {ToOctStandart(decimalNumber)}\n\r" +
+					$"Совпадение: { ToOct(decimalNumber) == ToOctStandart(decimalNumber)}\n\r");
+		case BaseSystem.Hex:
+		  return String.Format($"\n\rПо алгоритму: {ToHex(decimalNumber)}\n\rСтандартными средствами: {ToHexStandart(decimalNumber)}\n\r" +
+					$"Совпадение: {ToHex(decimalNumber) == ToHexStandart(decimalNumber)}\n\r");
+		case BaseSystem.Base32:
+		  return String.Format($"\n\rПо алгоритму: {ToBase32(decimalNumber)}\n\r");
+		case BaseSystem.Base64:
+		  return String.Format($"\n\rПо алгоритму: {ToBase64(decimalNumber)}\n\rСтандартными средствами: {ToBase64Standart(decimalNumber)}\n\r" +
+					$"Совпадение: {ToBase64(decimalNumber) == ToBase64Standart(decimalNumber)}\n\r");
+		default:
+		  return "Неверно выбрана система счисления!";
+	  }
+        
+    }
+
+
+    Исправленный код:
+   
+    public static string ToBase(int decimalNumber, BaseSystem baseSystem)
+    {
+	switch (baseSystem)
+        {
+	  case BaseSystem.Bin:
+            return FormLineToBase(ToBin(decimalNumber), ToBinStandart(decimalNumber)); 
+          case BaseSystem.Oct:
+            return FormLineToBase(ToOct(decimalNumber), ToOctStandart(decimalNumber));
+          case BaseSystem.Hex:
+            return FormLineToBase(ToHex(decimalNumber), ToHexStandart(decimalNumber));
+          case BaseSystem.Base32:
+            return FormLineToBase(ToBase32(decimalNumber));
+          case BaseSystem.Base64:
+            return FormLineToBase(ToBase64(decimalNumber), ToBase64Standart(decimalNumber));
+          default:
+            return "Неверно выбрана система счисления!";
+         }
+     }
+
+     private static string FormLineToBase(string customConvert, string standartConvert = "")
+     {
+        return String.Format($"\n\rПо алгоритму: {customConvert}\n\rCтандартными средствами: {standartConvert}\n\r" +
+        		$"Cовпадение: {customConvert == standartConvert}\n\r");
+     }
+
+  2) Practice C# 02.
+    Пример нарушения принципа:
+
+        private static string[] BytesToBits(byte[] bytes)
+        {
+            string[] arrayBytes = BitConverter.ToString(bytes).Split('-');
+
+            string template = "0123456789ABCDEF";
+
+            string[] binNumbers = new string[arrayBytes.Length];
+
+            string leftByte = string.Empty;
+            string rightByte = string.Empty;
+
+            for (int i = 0; i < arrayBytes.Length; i++)
+            {
+                leftByte = "0000" + Convert.ToBin(template.IndexOf(arrayBytes[i][0]));
+                rightByte = "0000" + Convert.ToBin(template.IndexOf(arrayBytes[i][1]));
+
+                binNumbers[i] += leftByte.Substring(leftByte.Length - 4, 4)  + rightByte.Substring(rightByte.Length - 4, 4);
+            }
+
+            return binNumbers;
+        }
+
+     Исправленный код:
+    
+        private static string[] BytesToBits(byte[] bytes)
+        {
+            string FormBytes(string template, string[] arrayBytes, bool rightByte, int numberValue)
+            {
+                string wholeByte = "0000" + Convert.ToBin(template.IndexOf(arrayBytes[numberValue][System.Convert.ToInt32(rightByte)]));
+
+                return wholeByte.Substring(wholeByte.Length - 4, 4);
+            }
+
+            string[] arrayBytes = BitConverter.ToString(bytes).Split('-');
+
+            string template = "0123456789ABCDEF";
+
+            string[] binNumbers = new string[arrayBytes.Length];
+
+
+            for (int i = 0; i < arrayBytes.Length; i++)
+            {
+                binNumbers[i] += FormBytes(template, arrayBytes, false, i) + FormBytes(template, arrayBytes, true, i);
+            }
+
+            return binNumbers;
+        }
+
+  3) Practice C# 02.
+    Пример нарушения принципа:
+
+	private static string ToBase32(int decimalNumber)
+        
+	{
+            
+		string dictionary = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
+
+            
+		string[] arrayBits = BytesToBits(BitConverter.GetBytes(decimalNumber));
+
+           
+		string binNumber = string.Empty;
+            string base32String = string.Empty;
+
+            
+		
+		foreach (string s in arrayBits)
+            
+		{
+                
+			binNumber += s;
+            
+		}
+
+            
+
+		binNumber += "00000000";
+
+            
+
+		for (int i = 0; i < binNumber.Length / 8; i++)
+            
+		{
+                
+			base32String += dictionary[BinToDec(binNumber.Substring(i * 5, 5))];
+        	
+		}
+
+            
+
+		return base32String;
+        
+	}
+
+        
+
+	private static string ToBase64(int decimalNumber)
+        
+	{
+            	
+		string dictionary = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToLower() + "0123456789" + "+/";
+
+  
+		string[] arrayBits = BytesToBits(BitConverter.GetBytes(decimalNumber));
+
+            
+	
+		string binNumber = string.Empty;
+            
+		string base64String = string.Empty;
+
+            
+
+		foreach (string s in arrayBits)
+            
+		{
+                
+			binNumber += s;
+            
+		}
+
+            
+
+		binNumber += "0000000000000000";
+
+            
+		
+		for (int i = 0; i < binNumber.Length / 8; i++)
+            
+		{
+                
+			base64String += dictionary[BinToDec(binNumber.Substring(i * 6, 6))];
+            
+		}
+
+            
+
+		return base64String + "==";
+        
+	}
+
+    
+    
+    Исправленный код:
+
+	private static string ToBase32(int decimalNumber)
+        {
+            string dictionary = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
+
+            string[] arrayBits = BytesToBits(BitConverter.GetBytes(decimalNumber));
+
+            return FormBaseString(arrayBits, dictionary, false);
+        }
+
+        private static string ToBase64(int decimalNumber)
+        {
+            string dictionary = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToLower() + "0123456789" + "+/";
+
+            string[] arrayBits = BytesToBits(BitConverter.GetBytes(decimalNumber));
+
+            return FormBaseString(arrayBits, dictionary, true) + "==";
+        }
+
+        private static string FormBaseString(string[] arrayBits, string dictionary, bool base64)
+        {
+            string binNumber = string.Empty;
+            string baseString = string.Empty;
+
+            foreach (string s in arrayBits)
+            {
+                binNumber += s;
+            }
+
+            if (base64)
+                binNumber += "0000000000000000";
+            else
+                binNumber += "00000000";
+
+            for (int i = 0; i < binNumber.Length / 8; i++)
+            {
+                baseString += dictionary[BinToDec(binNumber.Substring(i * (5 + System.Convert.ToInt32(base64)), 5 + System.Convert.ToInt32(base64)))];
+            }
+
+            return baseString;
+        }  

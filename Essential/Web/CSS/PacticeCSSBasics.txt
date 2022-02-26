@@ -1,0 +1,21 @@
+* = 0,0,0,0             
+li = 0,0,0,1          
+ul = 0,0,0,1
+ul ol+li = 0,0,0,3    
+h1 + *[rel=up] = 0,0,1,1
+ul ol li.red = 0,0,1,3
+li.red.level = 0,0,2,1
+#x34y = 0,1,0,0
+#s12:not(foo) = 0,1,0,1
+.container #main a = 0,1,1,1
+div #main p a = 0,1,0,3
+#main a = 0,1,0,1
+p a = 0,0,0,2
+a = 0,0,0,1
+div#container #main ul li = 0,2,0,3
+table tbody tr.even td.odd = 0,0,2,4
+.navbar ul.menu li#first = 0,1,2,2
+a:not(:visited) = 0,0,1,1
+.footer #menu li#sponsor = 0,2,1,1
+a[rel=nofollow]::before = 0,0,1,2
+:hover = 0,0,1,0

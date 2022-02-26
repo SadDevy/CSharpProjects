@@ -1,0 +1,133 @@
+1) С помощью глухого try{}catch{}:
+
+2) Создав новое исключение BaseException:
+
+-------------------exception-------------------
+Exception Type: BaseException
+Message: Rethrow as new BaseException.
+Source: ExceptionRegenerationUI
+TargetSite: Void RethrowAsNewBaseException()
+HResult: -2146232832
+Guid: e4187ee8-f3e4-439e-b8e4-d0a8ecad3bf5
+NetVersion: 3.1.6
+ConstructorName: Void .ctor(System.String)
+HelpLink:
+Key: Created, Value: 23.07.2020 21:36:41
+Key: Rethrown, Value: 23.07.2020 21:36:41
+StackTrace:    at ExceptionRegenerationUI.Program.RethrowAsNewBaseException() in
+ D:\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:lin
+e 62
+   at ExceptionRegenerationUI.Program.HandleRetrownAsNewBaseException() in D:\Ne
+tlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 42
+ExceptionRegeneration.BaseException: Rethrow as new BaseException.
+   at ExceptionRegenerationUI.Program.RethrowAsNewBaseException() in D:\Netlab_I
+vanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 62
+   at ExceptionRegenerationUI.Program.HandleRetrownAsNewBaseException() in D:\Ne
+tlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 42
+
+3) Создав новое исключение BaseException и передав в него исходное исключение:
+
+-------------------exception-------------------
+Exception Type: BaseException
+Message: Rethrow with inner.
+Source: ExceptionRegenerationUI
+TargetSite: Void RethrowAsNewBaseExceptionWithInner()
+HResult: -2146232832
+Guid: 3b2efc3d-97c9-4e0b-93f5-120f4ddf246b
+NetVersion: 3.1.6
+ConstructorName: Void .ctor(System.String, System.Exception)
+HelpLink:
+Key: Created, Value: 23.07.2020 21:36:41
+Key: Rethrown, Value: 23.07.2020 21:36:41
+StackTrace:    at ExceptionRegenerationUI.Program.RethrowAsNewBaseExceptionWithI
+nner() in D:\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Progr
+am.cs:line 90
+   at ExceptionRegenerationUI.Program.HandleRethrownAsNewBaseExceptionWithInner(
+) in D:\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs
+:line 70
+----------------inner exception----------------
+Exception Type: FormatException
+Message: Input string was not in a correct format.
+Source: System.Private.CoreLib
+TargetSite: Void ThrowOverflowOrFormatException(ParsingStatus, System.TypeCode)
+HResult: -2146233033
+HelpLink:
+StackTrace:    at System.Number.ThrowOverflowOrFormatException(ParsingStatus sta
+tus, TypeCode type)
+   at System.Double.Parse(String s)
+   at ExceptionRegenerationUI.Program.DoBoom() in D:\Netlab_IvanK\CSharp\Excepti
+onHandling\ExceptionRegenerationUI\Program.cs:line 151
+   at ExceptionRegenerationUI.Program.RethrowAsNewBaseExceptionWithInner() in D:
+\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 8
+4
+-------------end of inner exception-------------
+ExceptionRegeneration.BaseException: Rethrow with inner.
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCod
+e type)
+   at System.Double.Parse(String s)
+   at ExceptionRegenerationUI.Program.DoBoom() in D:\Netlab_IvanK\CSharp\Excepti
+onHandling\ExceptionRegenerationUI\Program.cs:line 151
+   at ExceptionRegenerationUI.Program.RethrowAsNewBaseExceptionWithInner() in D:
+\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 8
+4
+   --- End of inner exception stack trace ---
+   at ExceptionRegenerationUI.Program.RethrowAsNewBaseExceptionWithInner() in D:
+\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 9
+0
+   at ExceptionRegenerationUI.Program.HandleRethrownAsNewBaseExceptionWithInner(
+) in D:\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs
+:line 70
+
+4) Используя выражение throw:                    
+                    
+-------------------exception-------------------
+Exception Type: FormatException
+Message: Input string was not in a correct format.
+Source: System.Private.CoreLib
+TargetSite: Void ThrowOverflowOrFormatException(ParsingStatus, System.TypeCode)
+HResult: -2146233033
+HelpLink:
+Key: Rethrown, Value: 23.07.2020 21:36:41
+StackTrace:    at System.Number.ThrowOverflowOrFormatException(ParsingStatus sta
+tus, TypeCode type)
+   at System.Double.Parse(String s)
+   at ExceptionRegenerationUI.Program.DoBoom() in D:\Netlab_IvanK\CSharp\Excepti
+onHandling\ExceptionRegenerationUI\Program.cs:line 151
+   at ExceptionRegenerationUI.Program.RethrowOriginalException() in D:\Netlab_Iv
+anK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 112
+   at ExceptionRegenerationUI.Program.HandleRethrownOriginalException() in D:\Ne
+tlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 98
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCod
+e type)
+   at System.Double.Parse(String s)
+   at ExceptionRegenerationUI.Program.DoBoom() in D:\Netlab_IvanK\CSharp\Excepti
+onHandling\ExceptionRegenerationUI\Program.cs:line 151
+   at ExceptionRegenerationUI.Program.RethrowOriginalException() in D:\Netlab_Iv
+anK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 112
+   at ExceptionRegenerationUI.Program.HandleRethrownOriginalException() in D:\Ne
+tlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 98
+
+5) Используя throw дл¤ перегенерации исходного исключения:
+
+-------------------exception-------------------
+Exception Type: FormatException
+Message: Input string was not in a correct format.
+Source: ExceptionRegenerationUI
+TargetSite: Void RethrowOriginalOnceAgain()
+HResult: -2146233033
+HelpLink:
+Key: Rethrown, Value: 23.07.2020 21:36:42
+StackTrace:    at ExceptionRegenerationUI.Program.RethrowOriginalOnceAgain() in
+D:\Netlab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line
+ 144
+   at ExceptionRegenerationUI.Program.HandleRethrownOriginalOnceAga() in D:\Netl
+ab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 125
+System.FormatException: Input string was not in a correct format.
+   at ExceptionRegenerationUI.Program.RethrowOriginalOnceAgain() in D:\Netlab_Iv
+anK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 144
+   at ExceptionRegenerationUI.Program.HandleRethrownOriginalOnceAga() in D:\Netl
+ab_IvanK\CSharp\ExceptionHandling\ExceptionRegenerationUI\Program.cs:line 125
+
+

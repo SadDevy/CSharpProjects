@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AReflection", "AReflection\AReflection.csproj", "{833FD138-C2DA-44D5-B849-DD6350B9FA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BReflection", "BReflection\BReflection.csproj", "{614AD1C9-AB92-46E8-859E-36EA2551E88E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833FD138-C2DA-44D5-B849-DD6350B9FA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833FD138-C2DA-44D5-B849-DD6350B9FA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833FD138-C2DA-44D5-B849-DD6350B9FA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833FD138-C2DA-44D5-B849-DD6350B9FA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614AD1C9-AB92-46E8-859E-36EA2551E88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614AD1C9-AB92-46E8-859E-36EA2551E88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614AD1C9-AB92-46E8-859E-36EA2551E88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614AD1C9-AB92-46E8-859E-36EA2551E88E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1233B05B-B17A-46A4-9176-6A075C7E7BF0}
+	EndGlobalSection
+EndGlobal
