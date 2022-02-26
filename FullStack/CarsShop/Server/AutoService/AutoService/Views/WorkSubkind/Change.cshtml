@@ -1,0 +1,47 @@
+﻿@model WorkSubkind
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="registration__image">
+        <h1 class="registration__title-description">Изменить</h1>
+        <form asp-action="Change" class="registration__form" style="height: 500px;">
+            <div class="form-group">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="form__label">Название</label>
+                <input asp-for="Name" type="text" class="form__input" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionTitle" class="form__label">Заголовок описания</label>
+                <input asp-for="DescriptionTitle" class="form__input" />
+                <span asp-validation-for="DescriptionTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="form__label">Описание</label>
+                <input asp-for="Description" class="form__input" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkKindId" class="form__label">Вид работы</label>
+                <select asp-for="WorkKindId" class="form__input">
+                    @foreach (WorkKind workKind in @ViewBag.WorkKinds)
+                    {
+                        <option value="@workKind.Id">@workKind.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Изменить" class="form__input" />
+                <a asp-action="GetAllWorkSubkinds" class="form__btn-registration">Назад</a>
+            </div>
+        </form>
+    </section>
+</main>

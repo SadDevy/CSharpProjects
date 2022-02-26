@@ -1,0 +1,255 @@
+﻿@using System.Security.Claims
+@using Microsoft.EntityFrameworkCore
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="logo__link">Computer Shop</a>
+        </div>
+        <div class="header__actions actions">
+            <nav class="actions__navigation">
+                <div class="actions__basket">
+                    @if (@User.Identity.IsAuthenticated)
+                    {
+                        string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+                        if (role == "User")
+                        {
+                            <a asp-controller="Baskets" asp-action="GetAllGoods" class="basket__link">Корзина</a>
+                        }
+                    }
+                </div>
+                <div class="actions__notification">
+                    @if (@User.Identity.IsAuthenticated)
+                    {
+                        string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+                        if (role == "Admin")
+                        {
+                            <a href="#" class="notification__link"></a>
+                            <ul class="tables">
+                                <li class="tables__goods">
+                                    <a href="#" class="tables__link">Товары</a>
+                                    <ul class="tables-goods__actions">
+                                        <li class="tables-goods__item">
+                                            <a asp-controller="Goods" asp-action="GetAllGoodsAsTable" class="tables-goods__link">Просмотр</a>
+                                        </li>
+                                        <li class="tables-goods__item">
+                                            <a asp-controller="Goods" asp-action="Add" class="tables-goods__link">Добавить</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        }
+                    }
+                </div>
+            </nav>
+            <div class="actions__enter-btn">
+                @if (!@User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Account" asp-action="Login" class="enter-btn__link">Войти</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Logout" class="enter-btn__link">Выйти</a>
+                }
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <ul class="categories">
+                <li class="categories__item categories-item__tablets">
+                    <a href="#" class="item__link">
+                        <div class="item__image phones"></div>
+                        <div class="item__info">
+                            <div class="item__name">Смартфоны и гаджеты</div>
+                            <div class="item__description">планшеты фототехника</div>
+                        </div>
+                    </a>
+                    <ul class="categories__subcategories categories__tablets">
+                        <li class="subcategories subcategories-tablets__title"></li>
+                        <li class="subcategories__gadjets gadjets__tablets">
+                            <ul class="tablets__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 1).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="tablets__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="tablets__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="tablets__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 1).Skip(5).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="tablets__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="tablets__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="tablets__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 1).Skip(10);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="tablets__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="tablets__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="categories__item categories-item__computers">
+                    <a href="#" class="item__link">
+                        <div class="item__image computers"></div>
+                        <div class="item__info">
+                            <div class="item__name">Компьютеры</div>
+                            <div class="item__description">комплектующие</div>
+                        </div>
+                    </a>
+                    <ul class="categories__subcategories categories__computers">
+                        <li class="subcategories subcategories-computers__title"></li>
+                        <li class="subcategories__gadjets gadjets__computers">
+                            <ul class="computers__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="computers__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Skip(5).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="computers__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Skip(10).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </li>
+                        <li class="subcategories__gadjets gadjets__computer-parts">
+                            <ul class="computer-parts__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Skip(15).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="computer-parts__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Skip(20).Take(5);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="computer-parts__items">
+                                @using (ComputerShopContext context = new ComputerShopContext())
+                                {
+                                    IEnumerable<Subcatalog> subcatalogs = context.Subcatalogs.Where(n => n.CatalogId == 2).Skip(25);
+                                    @using (ComputerShopContext goodsContext = new ComputerShopContext())
+                                    {
+                                        foreach (Subcatalog subcatalog in subcatalogs)
+                                        {
+                                            int goodsCount = goodsContext.Goods.Count(n => n.SubcatalogId == subcatalog.Id);
+                                            <li class="computers__item">
+                                                <a asp-controller="Goods" asp-action="GetAllGoods" asp-route-subcatalogId="@subcatalog.Id" class="computers__link">@subcatalog.Name <span style="color: lightgray;">@goodsCount</span></a>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="main-content">
+                @RenderBody()
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="~/js/index.js"></script>
+</body>
+
+</html>

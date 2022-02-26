@@ -1,0 +1,45 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="logo__link">Computer Shop</a>
+        </div>
+        <div class="header__actions actions">
+            <nav class="actions__navigation">
+                <div class="actions__basket">
+                </div>
+                <div class="actions__notification">
+                </div>
+            </nav>
+            <div class="actions__enter-btn">
+                @if (!@User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Account" asp-action="Login" class="enter-btn__link">Войти</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Logout" class="enter-btn__link">Выйти</a>
+                }
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            @RenderBody()
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

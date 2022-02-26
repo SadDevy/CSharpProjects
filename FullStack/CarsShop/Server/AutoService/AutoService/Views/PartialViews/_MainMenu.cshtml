@@ -1,0 +1,265 @@
+﻿@using System.Security.Claims
+<section class="header">
+    <header class="page-header">
+        <div class="page-header__logo">Some service</div>
+        <div class="page-header__address">
+            <div class="address__title">Адрес в Рязани</div>
+            <div class="address__place">ул. Иванова, д. Петрова</div>
+        </div>
+        <div class="page-header__phone">
+            <div class="phone__title">Телефон</div>
+            <div class="phone__digits">+7-(4912)-65-56-65</div>
+        </div>
+        <div class="page-header__work-time">
+            <div class="work-time__title">Ежедневно</div>
+            <div class="work-time__time">с 9.00 до 21.00</div>
+        </div>
+        <div class="page-header__menu">
+            <a href="#" class="menu__borders">
+                <div class="menu__top-border"></div>
+                <div class="menu__middle-border"></div>
+                <div class="menu__bottom-border"></div>
+            </a>
+        </div>
+        <ul class="mobile-menu__items mobile-menu__items--hidden">
+            <li class="mobile-menu__item">
+                <a asp-controller="Home" asp-action="Index" class="mobile-menu__link">Главная</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Виды работ</a>
+                <ul class="item__mobile-submenu item__mobile-submenu--hidden">
+                    @{
+                        using (AutoServiceContext context = new AutoServiceContext())
+                        {
+                            IEnumerable<WorkKind> workKinds = context.WorkKinds.ToList();
+
+                            @foreach (WorkKind workKind in workKinds)
+                            {
+                                bool hasSubkind = context.WorkSubkinds.ToList().Any(n => n.WorkKindId == workKind.Id);
+                                string classList = "mobile-submenu__item " + (hasSubkind ? "has-mobile-subkind" : "");
+
+                                <li class="@classList">
+                                    @if (hasSubkind)
+                                    {
+                                        <a href="#" class="mobile-submenu-item__link">@workKind.Name</a>
+                                        <ul class="item__mobile-side-submenu item__mobile-side-submenu--hidden">
+                                            @{
+                                                IEnumerable<WorkSubkind> workSubkinds = context.WorkSubkinds.Where(n => n.WorkKindId == workKind.Id).ToList();
+                                                @foreach (WorkSubkind workSubkind in workSubkinds)
+                                                {
+                                                    <li class="mobile-side-submenu__item">
+                                                        <a asp-controller="WorkSubkind" asp-action="GetWorkSubkind" asp-route-id="@workSubkind.Id" class="mobile-side-submenu__link">@workSubkind.Name</a>
+                                                    </li>
+                                                }
+                                            }
+                                        </ul>
+                                    }
+                                    else
+                                    {
+                                        <a asp-controller="WorkKind" asp-action="GetWorkKind" asp-route-id="@workKind.Id" class="mobile-submenu-item__link">@workKind.Name</a>
+                                    }
+                                </li>
+                            }
+                        }
+                    }
+                </ul>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Марки машин</a>
+                <ul class="item__mobile-submenu item__mobile-submenu--hidden">
+                    @{
+                        using (AutoServiceContext context = new AutoServiceContext())
+                        {
+                            foreach (AutoMark autoMark in context.AutoMarks)
+                            {
+                                <li class="mobile-submenu__item">
+                                    <a asp-controller="AutoMark" asp-action="GetAutoMark" asp-route-id="@autoMark.Id" class="mobile-submenu-item__link">@autoMark.Name</a>
+                                </li>
+                            }
+                        }
+                    }
+                </ul>
+            </li>
+            <li class="mobile-menu__item">
+                <a asp-controller="Home" asp-action="Contacts" class="mobile-menu__link">Контакты</a>
+            </li>
+            @if (@User.Identity.IsAuthenticated)
+            {
+                string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+                if (role == "Admin")
+                {
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Таблицы</a>
+                        <ul class="item__mobile-submenu item__mobile-submenu--hidden">
+                            <li class="mobile-submenu__item has-mobile-subkind">
+                                <a href="#" class="mobile-submenu-item__link">Виды работ</a>
+                                <ul class="item__mobile-side-submenu item__mobile-side-submenu--hidden">
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="WorkKind" asp-action="GetAllWorkKinds" class="mobile-side-submenu__link">Просмотр</a>
+                                    </li>
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="WorkKind" asp-action="Add" class="mobile-side-submenu__link">Добавить</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-submenu__item has-mobile-subkind">
+                                <a href="#" class="mobile-submenu-item__link">Подвиды работ</a>
+                                <ul class="item__mobile-side-submenu item__mobile-side-submenu--hidden">
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="WorkSubkind" asp-action="GetAllWorkSubkinds" class="mobile-side-submenu__link">Просмотр</a>
+                                    </li>
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="WorkSubkind" asp-action="Add" class="mobile-side-submenu__link">Добавить</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobile-submenu__item has-mobile-subkind">
+                                <a href="#" class="mobile-submenu-item__link">Марки машин</a>
+                                <ul class="item__mobile-side-submenu item__mobile-side-submenu--hidden">
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="AutoMark" asp-action="GetAllAutoMarks" class="mobile-side-submenu__link">Просмотр</a>
+                                    </li>
+                                    <li class="mobile-side-submenu__item">
+                                        <a asp-controller="AutoMark" asp-action="Add" class="mobile-side-submenu__link">Добавить</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                }
+            }
+            <li class="mobile-menu__item">
+                @if (!@User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Account" asp-action="Login" class="mobile-menu__link">Войти</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Logout" class="mobile-menu__link">Выйти</a>
+                }
+            </li>
+        </ul>
+    </header>
+    <section class="page-subheader">
+        <nav class="page-navigation">
+            <ul class="page-navigation__menu">
+                <li class="menu__item">
+                    <a asp-controller="Home" asp-action="Index" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link work-kinds">Виды работ</a>
+                    <ul class="item__submenu">
+                        @{
+                            using (AutoServiceContext context = new AutoServiceContext())
+                            {
+                                IEnumerable<WorkKind> workKinds = context.WorkKinds.ToList();
+
+                                @foreach (WorkKind workKind in workKinds)
+                                {
+                                    bool hasSubkind = context.WorkSubkinds.ToList().Any(n => n.WorkKindId == workKind.Id);
+                                    string classList = "submenu__item " + (hasSubkind ? "has-subkind" : "");
+
+                                    <li class="@classList">
+                                        @if (hasSubkind)
+                                        {
+                                            <a href="#" class="submenu-item__link">@workKind.Name</a>
+                                            <ul class="item__side-submenu">
+                                                @{
+                                                    IEnumerable<WorkSubkind> workSubkinds = context.WorkSubkinds.Where(n => n.WorkKindId == workKind.Id).ToList();
+                                                    @foreach (WorkSubkind workSubkind in workSubkinds)
+                                                    {
+                                                        <li class="side-submenu__item">
+                                                            <a asp-controller="WorkSubkind" asp-action="GetWorkSubkind" asp-route-id="@workSubkind.Id" class="side-submenu__link">@workSubkind.Name</a>
+                                                        </li>
+                                                    }
+                                                }
+                                            </ul>
+                                        }
+                                        else
+                                        {
+                                            <a asp-controller="WorkKind" asp-action="GetWorkKind" asp-route-id="@workKind.Id" class="submenu-item__link">@workKind.Name</a>
+                                        }
+                                    </li>
+                                }
+                            }
+                        }
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link car-marks">Марки машин</a>
+                    <ul class="item__submenu">
+                        @{
+                            using (AutoServiceContext context = new AutoServiceContext())
+                            {
+                                foreach (AutoMark autoMark in context.AutoMarks)
+                                {
+                                    <li class="submenu__item">
+                                        <a asp-controller="AutoMark" asp-action="GetAutoMark" asp-route-id="@autoMark.Id" class="submenu-item__link">@autoMark.Name</a>
+                                    </li>
+                                }
+                            }
+                        }
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a asp-controller="Home" asp-action="Contacts" class="menu__link">Контакты</a>
+                </li>
+                @if (@User.Identity.IsAuthenticated)
+                {
+                    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+                    if (role == "Admin")
+                    {
+                        <li class="menu__item">
+                            <a href="#" class="menu__link car-marks">Таблицы</a>
+                            <ul class="item__submenu">
+                                <li class="submenu__item has-subkind">
+                                    <a href="#" class="submenu-item__link">Виды работ</a>
+                                    <ul class="item__side-submenu">
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="WorkKind" asp-action="GetAllWorkKinds" class="side-submenu__link">Просмотр</a>
+                                        </li>
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="WorkKind" asp-action="Add" class="side-submenu__link">Добавить</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item has-subkind">
+                                    <a href="#" class="submenu-item__link">Подвиды работ</a>
+                                    <ul class="item__side-submenu">
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="WorkSubkind" asp-action="GetAllWorkSubkinds" class="side-submenu__link">Просмотр</a>
+                                        </li>
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="WorkSubkind" asp-action="Add" class="side-submenu__link">Добавить</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item has-subkind">
+                                    <a href="#" class="submenu-item__link">Марки автомобилей</a>
+                                    <ul class="item__side-submenu">
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="AutoMark" asp-action="GetAllAutoMarks" class="side-submenu__link">Просмотр</a>
+                                        </li>
+                                        <li class="side-submenu__item">
+                                            <a asp-controller="AutoMark" asp-action="Add" class="side-submenu__link">Добавить</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                }
+            </ul>
+            <div class="enter-btn">
+                @if (!@User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Account" asp-action="Login" class="enter-btn__link">Войти</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Logout" class="enter-btn__link">Выйти</a>
+                }
+            </div>
+        </nav>
+    </section>
+</section>

@@ -1,0 +1,22 @@
+﻿@model WorkSubkind
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="contact contact__image">
+        <div class="contact__info">
+            <div class="contact__address">
+                <div class="contact-address__title">Адрес в Рязани</div>
+                <div class="contact-address__description">ул. Иванова, д. Петрова</div>
+            </div>
+            <div class="contact__phone">
+                <div class="contact-phone__title">Телефон</div>
+                <div class="contact-phone__description">+7-(4912)-65-56-65</div>
+            </div>
+        </div>
+    </section>
+</main>

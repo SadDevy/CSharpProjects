@@ -1,0 +1,19 @@
+﻿@model AutoMark
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="auto-mark__title-image" style="--bg-image: url(@Url.Action("GetImageFile", new { id = @Model.Id }))">
+        <h1 class="auto-mark__title">@Model.Name</h1>
+    </section>
+    <section class="auto-mark__description">
+        <h1 class="auto-mark__title-description">@Model.DescriptionTitle</h1>
+        <div class="auto-mark__total-description">
+            @Model.Description
+        </div>
+    </section>
+</main>

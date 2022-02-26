@@ -1,0 +1,19 @@
+﻿@model WorkSubkind
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="auto-repairment__title-image">
+        <h1 class="auto-repairment__title">@Model.Name</h1>
+    </section>
+    <section class="auto-repairment__description">
+        <h1 class="auto-repairment__title-description">@Model.DescriptionTitle</h1>
+        <div class="auto-repairment__total-description">
+            @Model.Description
+        </div>
+    </section>
+</main>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WorkKind>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="table__image">
+        <h1 class="table__title-description">Виды работ</h1>
+        <table class="table__content">
+            <thead>
+                <tr>
+                    <th>Код</th>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (WorkKind workKind in @Model)
+                {
+                    <tr>
+                        <td>@workKind.Id</td>
+                        <td>@workKind.Name</td>
+                        <td>@workKind.Description</td>
+                        <td>
+                            <a asp-controller="WorkKind" asp-action="Change" asp-route-id="@workKind.Id">Изменить</a>
+                            /
+                            <a asp-controller="WorkKind" asp-action="Delete" asp-route-id="@workKind.Id">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
+</main>

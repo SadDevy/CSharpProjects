@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AutoMark>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Html.PartialAsync("../PartialViews/_MainMenu")
+
+<main>
+    <section class="table__image">
+        <h1 class="table__title-description">Марки автомобилей</h1>
+        <table class="table__content">
+            <thead>
+                <tr>
+                    <th>Код</th>
+                    <th>Название</th>
+                    <th>Картинка</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (AutoMark autoMark in @Model)
+                {
+                    <tr>
+                        <td>@autoMark.Id</td>
+                        <td>@autoMark.Name</td>
+                        <td>
+                            @if (autoMark.Image != null)
+                            {
+                                <a asp-action="GetImage" asp-route-id="@autoMark.Id">Изображение</a>
+                            }
+                        </td>
+                        <td>
+                            <a asp-controller="AutoMark" asp-action="Change" asp-route-id="@autoMark.Id">Изменить</a>
+                            /
+                            <a asp-controller="AutoMark" asp-action="Delete" asp-route-id="@autoMark.Id">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
+</main>

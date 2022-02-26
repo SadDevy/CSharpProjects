@@ -1,0 +1,48 @@
+﻿@model Good
+
+<form asp-controller="Goods" asp-action="Change" class="goods-form" enctype="multipart/form-data">
+    <div class="goods-form__item-block">
+        <div class="goods-form__title">Изменить</div>
+    </div>
+    <div class="goods-form__item-block">
+        <div class="goods-form__item">
+            <label asp-for="Name" class="goods-form__label">Название</label>
+            <input asp-for="Name" type="text" class="goods-form__input">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="goods-form__item">
+            <label asp-for="Price" class="goods-form__label">Цена</label>
+            <input asp-for="Price" type="text" class="goods-form__input">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="goods-form__item">
+            <label asp-for="Description" class="goods-form__label">Описание</label>
+            <textarea asp-for="Description" type="text" class="goods-form__input" rows="5"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="goods-form__item">
+            <label class="goods-form__label">Изображение</label>
+            <input type="file" class="goods-form__input" name="image">
+        </div>
+        <div class="goods-form__item">
+            <label asp-for="Count" class="goods-form__label">Количество</label>
+            <input asp-for="Count" type="number" class="goods-form__input" min="0">
+            <span asp-validation-for="Count" class="text-danger"></span>
+        </div>
+        <div class="goods-form__item">
+            <label asp-for="SubcatalogId" class="goods-form__label">Подкаталог</label>
+            <select asp-for="SubcatalogId" class="goods-form__input">
+                @foreach (Subcatalog subcatalog in ViewBag.Subcatalogs)
+                {
+                    <option value="@subcatalog.Id">@subcatalog.Name</option>
+                }
+            </select>
+        </div>
+        <div class="goods-form__item">
+            <div class="goods-item-block__buttons">
+                <button class="goods-item__button" value="submit">Изменить</button>
+                <a asp-controller="Goods" asp-action="GetAllGoodsAsTable" class="goods-item__button">К таблице</a>
+            </div>
+        </div>
+    </div>
+</form>

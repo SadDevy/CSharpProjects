@@ -1,0 +1,31 @@
+﻿@model RegisterModel
+
+@{
+    Layout = "../Shared/_LoginLayout.cshtml";
+}
+
+<form asp-action="Register" class="enter-form">
+    <div class="enter-form__item-block">
+        <div class="item-block__title">
+            Регистрация
+        </div>
+    </div>
+    <div class="enter-form__item-block">
+        <div class="enter-form__item">
+            <label asp-for="Login" class="item__label">Логин</label>
+            <input asp-for="Login" type="text" class="item__input" />
+            <span asp-validation-for="Login" class="text-danger"></span>
+        </div>
+        <div class="enter-form__item">
+            <label asp-for="Password" class="item__label">Пароль</label>
+            <input asp-for="Password" type="password" class="item__input" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="enter-form__item-block">
+        <div class="item-block__buttons">
+            <button class="item__button" value="submit">Зарегистрироваться</button>
+            <a asp-controller="Account" asp-action="Login" class="item__button">Войти</a>
+        </div>
+    </div>
+</form>

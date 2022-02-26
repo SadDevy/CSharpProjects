@@ -1,0 +1,30 @@
+﻿@using System.Security.Claims
+@model Good
+
+<div class="goods-information">
+    <div class="goods__main-information">
+        <div class="main-information__image" style="background: transparent url( @Url.Action("GetImageFile", new { id = @Model.Id }) ) no-repeat; background-size: 100% auto;"></div>
+        <div class="main-information__additional-info">
+            <div class="main-information__name-price">
+                <div class="main-information__name">
+                    @Model.Name
+                </div>
+                <div class="main-information__price">@Model.Price ₽</div>
+            </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+                if (role == "User")
+                {
+                    <a href="#" class="main-information__basket-btn">В корзину</a>
+                }
+            }
+        </div>
+    </div>
+    <div class="goods__description">
+        <div class="description__title">Описание</div>
+        <div class="description__content">
+            @Model.Description
+        </div>
+    </div>
+</div>

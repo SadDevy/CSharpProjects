@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BasketElement>
+
+<h1 class="basket__header">Корзина</h1>
+<div class="basket__goods-title">
+    <div class="basket__goods-count">@Model.Count() товара на <span class="total-price" style="color: orange;"></span> руб.</div>
+    <a asp-controller="Baskets" asp-action="DeleteAllGoods" class="basket__goods-delete-all">Удалить все товары</a>
+</div>
+@foreach (BasketElement basketElement in Model)
+{
+    @using (ComputerShopContext context = new ComputerShopContext())
+    {
+        Good good = context.Goods.First(n => n.Id == basketElement.GoodsId);
+        <div class="basket__goods">
+            <div class="basket-goods__image" style="background: transparent url(@Url.Action("GetImageFile", "Goods", new { id = @good.Id })) no-repeat; background-size: 100% 100%;"></div>
+            <div class="basket-goods__name-delete-btn">
+                <div class="basket-goods__name">@good.Name</div>
+                <a asp-controller="Baskets" asp-action="DeleteGoods" asp-route-basketElementId="@basketElement.Id" class="basket-goods__delete-btn">Удалить</a>
+                <div class="basket-goods__count-buttons">
+                    <button class="basket-goods__count-decrease-btn" data-min="0">-</button>
+                    <span class="basket-goods__count-content">1</span>
+                    <button class="basket-goods__count-increase-btn" data-max="@context.Goods.First(n => n.Id == basketElement.GoodsId).Count">+</button>
+                </div>
+            </div>
+            <div class="basket-goods__price">@good.Price<span> ₽</span></div>
+        </div>
+    }
+}
